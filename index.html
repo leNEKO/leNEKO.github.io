@@ -1,0 +1,440 @@
+
+Warning: file_put_contents(cache/render_adresse.mu): failed to open stream: Permission denied in /home/neko/public_html/cv/classes/Html.class.php on line 70
+
+Call Stack:
+    0.0002     362640   1. {main}() /home/neko/public_html/cv/index.php:0
+    0.3630     925168   2. Html->render() /home/neko/public_html/cv/index.php:22
+    0.3769     949136   3. file_put_contents() /home/neko/public_html/cv/classes/Html.class.php:70
+
+
+Warning: file_put_contents(cache/render_info.mu): failed to open stream: Permission denied in /home/neko/public_html/cv/classes/Html.class.php on line 70
+
+Call Stack:
+    0.0002     362640   1. {main}() /home/neko/public_html/cv/index.php:0
+    0.3770     949456   2. Html->render() /home/neko/public_html/cv/index.php:25
+    0.3887     955440   3. file_put_contents() /home/neko/public_html/cv/classes/Html.class.php:70
+
+
+Warning: file_put_contents(cache/render_cv.mu): failed to open stream: Permission denied in /home/neko/public_html/cv/classes/Html.class.php on line 70
+
+Call Stack:
+    0.0002     362640   1. {main}() /home/neko/public_html/cv/index.php:0
+    0.3888     955360   2. Html->render() /home/neko/public_html/cv/index.php:28
+    0.3899    1001312   3. file_put_contents() /home/neko/public_html/cv/classes/Html.class.php:70
+
+<!doctype html>
+	<html lang="en">
+	<title></title>
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
+<link rel="stylesheet" href="style.php/main.scss" />
+	</head>
+	<body>
+		<br/>
+<div class="container">
+	<div class="row">
+		<div class="col">
+			<address>
+	<h5>
+		Nicolas Masson
+	</h5>
+
+	<div>
+			<!-- 310, rue des Magnolias Grandiflora<br/> -->
+			<i class="fas fa-map-marker-alt fa-fw"></i>
+			<a href="https://www.google.fr/maps/place/Trévoux" target="map" class="text-uppercase">
+				01600 Trévoux
+			</a>
+	</div>
+
+	<div>
+		<i class="fas fa-fw fa-envelope"></i> <a href="mailto:le.neko@gmail.com">le.neko@gmail.com</a>
+	</div>
+	<div>
+		<i class="fas fa-phone fa-fw"></i> 07 83 53 44 30
+	</div>
+</address>
+
+		</div>
+		<div class="col text-right">
+			<h5>Développeur WEB fullstack<br/>PHP/MySQL</h5>
+
+<div>
+	<i class="fa fa-clock"></i>
+	<b>Disponibilité</b><br/>
+	Immédiate
+</div>
+
+<div>
+	<i class="fas fa-hourglass-half"></i>
+	<b>Années d'expériences</b><br/>
+	15 ans
+</div>
+
+<div>
+	<i class="fa fa-map"></i>
+	<b>Mobilité géographique</b><br/>
+	Région de Lyon
+</div>
+		</div>
+	</div>
+
+	<br/>
+
+	<div class="cv">
+		<div class="row">
+			<div class="col">
+				<h3 class="text-uppercase">Formation</h3>
+				<h4><small>Autodidacte</small></h4>
+			</div>
+		</div>
+		<hr/>
+		<h3 class="text-uppercase">
+			<a href="https://docs.google.com/spreadsheets/d/10NMp5EHkIQexaXeaxUbqfIkLK0pt6yrQPe9IZwujdhQ/edit#gid=0" target="comp">
+				Compétences
+			</a>
+		</h3>
+		<br/>
+		<div class="row comp padded">
+	<div class="col col-sm-6">
+			<h5>
+			<i class="fa fa-code fa-fw"></i>
+			Languages &amp; Formats	</h5>
+	<table>
+		<tbody>
+							<tr>
+					<th class="text-right text-nowrap">
+						<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+					</th>
+					<td>
+																			<a class="tag"  href="http://php.net/manual/fr/intro-whatis.php" target="techno" >
+								<span class='text-nowrap'><i class='fab fa-php fa-fw'></i> PHP</span>, 							</a>
+													<a class="tag"  href="https://sass-lang.com/" target="techno" >
+								<span class='text-nowrap'><i class='fab fa-sass fa-fw'></i> SASS</span>							</a>
+											</td>
+				</tr>
+								<tr>
+					<th class="text-right text-nowrap">
+						<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+					</th>
+					<td>
+																			<a class="tag"  href="https://fr.wikipedia.org/wiki/JavaScript" target="techno" >
+								<span class='text-nowrap'><i class='fab fa-js fa-fw'></i> Javascript</span>, 							</a>
+													<a class="tag" >
+								<span class='text-nowrap'><i class='fas fa-database fa-fw'></i> SQL</span>, 							</a>
+													<a class="tag"  href="https://fr.wikipedia.org/wiki/HTML5" target="techno" >
+								<span class='text-nowrap'><i class='fab fa-html5 fa-fw'></i> HTML5</span>, 							</a>
+													<a class="tag"  href="https://www.json.org/json-fr.html" target="techno" >
+								JSON, 							</a>
+													<a class="tag"  href="https://oembed.com/" target="techno" >
+								oEmbed, 							</a>
+													<a class="tag"  href="https://fr.wikipedia.org/wiki/Scalable_Vector_Graphics" target="techno" >
+								SVG, 							</a>
+													<a class="tag"  href="https://mustache.github.io/" target="techno" >
+								MUSTACHE							</a>
+											</td>
+				</tr>
+								<tr>
+					<th class="text-right text-nowrap">
+						<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+					</th>
+					<td>
+																			<a class="tag"  href="https://fr.wikipedia.org/wiki/Bourne-Again_shell" target="techno" >
+								<span class='text-nowrap'><i class='fas fa-terminal fa-fw'></i> SHELL</span>, 							</a>
+													<a class="tag"  href="https://fr.wikipedia.org/wiki/Programmation_orient%C3%A9e_objet" target="techno" >
+								POO, 							</a>
+													<a class="tag"  href="https://fr.wikipedia.org/wiki/Markdown" target="techno" >
+								Markdown							</a>
+											</td>
+				</tr>
+								<tr>
+					<th class="text-right text-nowrap">
+						<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+					</th>
+					<td>
+																			<a class="tag"  href="https://www.java.com/fr/" target="techno" >
+								JAVA, 							</a>
+													<a class="tag"  href="https://www.python.org/" target="techno" >
+								PYTHON, 							</a>
+													<a class="tag"  href="https://fr.wikipedia.org/wiki/Mod%C3%A8le-vue-contr%C3%B4leur" target="techno" >
+								MVC, 							</a>
+													<a class="tag"  href="http://ogp.me/" target="techno" >
+								OPENGRAPH							</a>
+											</td>
+				</tr>
+						</tbody>
+	</table>
+				<h5>
+			<i class="fa fa-code fa-fw"></i>
+			Frameworks &amp; API	</h5>
+	<table>
+		<tbody>
+							<tr>
+					<th class="text-right text-nowrap">
+						<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+					</th>
+					<td>
+																			<a class="tag"  href="https://getbootstrap.com/" target="techno" >
+								Bootstrap, 							</a>
+													<a class="tag"  href="https://jquery.com/" target="techno" >
+								Jquery, 							</a>
+													<a class="tag"  href="https://www.tumblr.com/docs/en/api/v2" target="techno" >
+								Tumblr							</a>
+											</td>
+				</tr>
+								<tr>
+					<th class="text-right text-nowrap">
+						<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+					</th>
+					<td>
+																			<a class="tag"  href="https://www.mandrill.com/" target="techno" >
+								Mailchimp, 							</a>
+													<a class="tag"  href="https://www.monetico-paiement.fr/" target="techno" >
+								Monetico, 							</a>
+													<a class="tag"  href="http://www1.paybox.com/" target="techno" >
+								PAYBOX, 							</a>
+													<a class="tag"  href="https://www.paypal.com/fr/home" target="techno" >
+								PAYPAL, 							</a>
+													<a class="tag"  href="https://atos.net/fr/" target="techno" >
+								ATOS							</a>
+											</td>
+				</tr>
+								<tr>
+					<th class="text-right text-nowrap">
+						<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+					</th>
+					<td>
+																			<a class="tag"  href="https://developers.google.com/maps/?hl=fr" target="techno" >
+								Google map API, 							</a>
+													<a class="tag"  href="https://developers.google.com/sheets/" target="techno" >
+								Google sheet API							</a>
+											</td>
+				</tr>
+						</tbody>
+	</table>
+		</div>
+	<div class="col col-sm-6">
+			<h5>
+			<i class="fa fa-server fa-fw"></i>
+			Services &amp; Outils	</h5>
+	<table>
+		<tbody>
+							<tr>
+					<th class="text-right text-nowrap">
+						<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+					</th>
+					<td>
+																			<a class="tag"  href="https://fr.wikipedia.org/wiki/Secure_Shell" target="techno" >
+								<span class='text-nowrap'><i class='fas fa-lock fa-fw'></i> SSH</span>, 							</a>
+													<a class="tag"  href="https://www.cis.upenn.edu/~bcpierce/unison/" target="techno" >
+								unison, 							</a>
+													<a class="tag"  href="https://getcomposer.org/" target="techno" >
+								Composer							</a>
+											</td>
+				</tr>
+								<tr>
+					<th class="text-right text-nowrap">
+						<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+					</th>
+					<td>
+																			<a class="tag"  href="https://httpd.apache.org/" target="techno" >
+								Apache, 							</a>
+													<a class="tag"  href="https://www.mysql.com/fr/" target="techno" >
+								MySQL, 							</a>
+													<a class="tag"  href="https://fr.wikipedia.org/wiki/Cron" target="techno" >
+								Cron, 							</a>
+													<a class="tag"  href="https://www.postgresql.org/" target="techno" >
+								PostgreSQL, 							</a>
+													<a class="tag"  href="https://bower.io/" target="techno" >
+								Bower, 							</a>
+													<a class="tag"  href="https://git-scm.com/" target="techno" >
+								<span class='text-nowrap'><i class='fab fa-git fa-fw'></i> GIT</span>, 							</a>
+													<a class="tag"  href="https://fr.wikipedia.org/wiki/Make" target="techno" >
+								make, 							</a>
+													<a class="tag"  href="https://fr.wikipedia.org/wiki/Rsync" target="techno" >
+								rsync							</a>
+											</td>
+				</tr>
+						</tbody>
+	</table>
+				<h5>
+			<i class="fa fa-save fa-fw"></i>
+			OS &amp; Softwares	</h5>
+	<table>
+		<tbody>
+							<tr>
+					<th class="text-right text-nowrap">
+						<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+					</th>
+					<td>
+																			<a class="tag"  href="https://fr.wikipedia.org/wiki/Linux" target="techno" >
+								<span class='text-nowrap'><i class='fab fa-linux fa-fw'></i> LINUX</span>, 							</a>
+													<a class="tag"  href="https://www.gimp.org/fr/" target="techno" >
+								Gimp, 							</a>
+													<a class="tag"  href="https://inkscape.org/fr/" target="techno" >
+								Inkscape, 							</a>
+													<a class="tag"  href="https://www.reaper.fm/" target="techno" >
+								Reaper							</a>
+											</td>
+				</tr>
+								<tr>
+					<th class="text-right text-nowrap">
+						<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+					</th>
+					<td>
+																			<a class="tag" >
+								<span class='text-nowrap'><i class='fab fa-apple fa-fw'></i> OSX</span>, 							</a>
+													<a class="tag" >
+								<span class='text-nowrap'><i class='fab fa-windows fa-fw'></i> Windows</span>, 							</a>
+													<a class="tag"  href="https://www.adobe.com" target="techno" >
+								Suite Adobe							</a>
+											</td>
+				</tr>
+						</tbody>
+	</table>
+		</div>
+</div>
+		<hr/>
+
+		<h3 class="text-uppercase">Expérience professionnelle</h3>
+
+		<h4>
+			<small>2008 &mdash; 2018</small><br/>
+			Développeur WEB fullstack <br/><small>@Hurleur média</small>
+		</h4>
+		<br/>
+		<div class="row padded">
+			<div class="col col-sm-6">
+				<h5>
+					<i class="fa fa-shopping-cart fa-fw"></i>
+					Développement et exploitation d'une plateforme d'<b>eCommerce</b></h5>
+				<ul>
+					<li>
+						<b>La Ribouldingue / Henry's France</b>
+						<a target="site" href="https://laribouldingue.com">www.laribouldingue.com</a>
+					</li>
+					<li>
+						<b>L'Éclat de Verre</b>
+						<a target="site" href="http://homeprint.biz">www.homeprint.biz</a>
+					</li>
+					<li>
+						<b>Presses universitaires de Lyon</b>
+						<a target="site" href="http://presses.univ-lyon2.fr">www.presses.univ-lyon2.fr</a> …
+					</li>
+
+				</ul>
+				<br/>
+			</div>
+
+			<div class="col col-xs-12 col-sm-6">
+				<h5>
+					<i class="fas fa-pencil-alt fa-fw"></i>
+					Développement et exploitation d'une plateforme <b>CMS</b>
+				</h5>
+				<ul>
+					<li>
+						<b>Grim Edif</b>
+						<a target="site" href="http://www.grimedif.fr">www.grimedif.fr</a>
+					</li>
+					<li>
+						<b>Fondation Apicil</b>
+						<a target="site" href="http://www.fondation-apicil.org">www.fondation-apicil.org</a>
+					</li>
+					<li>
+						<a target="site" href="http://www.academiedeversailles.com">www.academiedeversailles.com</a>
+					</li>
+					<li><a target="site" href="http://gerarduferas.com">www.gerarduferas.com</a> …</li>
+				</ul>
+			</div>
+
+			<div class="col-xs-12 col-sm-6">
+				<h5>
+					<i class="fa fa-server fa-fw"></i>
+					<b>Administration de serveurs Linux</b> dédiés et virtualisés
+				</h5>
+				<ul>
+					<li><b>Serveur HTTP</b> : Apache</li>
+					<li><b>DB</b> : MySQL</li>
+					<li><b>Monitoring</b> : Munin</li>
+					<li><b>Backups</b> : Automysql, Rsync, Cron, Unison …</li>
+				</ul>
+			</div>
+
+			<div class="col-xs-12 col-sm-6">
+				<h5>
+					<i class="fa fa-paint-brush fa-fw"></i>
+					Quelques tâches de créations graphiques
+				</h5>
+				<ul>
+					<li>Web design, UI</li>
+					<li>Logo, Charte graphique</li>
+					<li>Prépresse : PAO, flyers, affiches …</li>
+				</ul>
+			</div>
+		</div>
+
+
+		<h4>
+			<small>2004 &mdash; 2008</small><br/>
+			Développeur Flash/Actionscript <br/><small>@Indépendant</small>
+		</h4>
+		<div class="padded">
+			<ul>
+				<li>
+					Créations de site dynamique avec la plateforme Flash / ActionScript,
+				</li>
+				<li>
+					applications interactives,
+				</li>
+				<li>
+					animations algorythmiques, art génératif
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+<br/>
+		<script src="//code.jquery.com/jquery-3.3.0.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/mustache.js/2.3.0/mustache.min.js"></script>
+<script src="//use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.6/jquery.lazy.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.6/jquery.lazy.plugins.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-fullscreen-plugin/1.1.4/jquery.fullscreen-min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.2/jquery.scrollTo.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-zoom/1.7.20/jquery.zoom.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js"></script>
+<script src="js/main.js"></script>
+	</body>
+</html>
